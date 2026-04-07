@@ -1,7 +1,12 @@
 aid: comerica
-url: https://raw.githubusercontent.com/api-evangelist/comerica/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/comerica/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.comerica.com
+description: >-
+  Comerica is a financial services company headquartered in Texas that provides banking,
+  wealth management, and other financial services through retail, business, and corporate
+  banking divisions.
