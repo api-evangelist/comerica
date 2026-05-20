@@ -29,6 +29,8 @@ description: >-
   documented.
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/comerica-bank
   - type: Website
     url: https://www.comerica.com
   - type: Personal
