@@ -30,6 +30,8 @@ description: >-
   documented.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/comerica-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/comerica-bank
   - type: Website
