@@ -1,0 +1,67 @@
+reviewer: API Evangelist
+date: '2026-07-23'
+slug: comerica
+institution: Comerica Incorporated
+domain: comerica.com
+tier: super-regional
+finding: >-
+  Comerica exposes NO first-party public developer API. A live probe on
+  2026-07-23 of developer.comerica.com, developers.comerica.com,
+  api.comerica.com, and apis.comerica.com all failed to resolve (curl exit /
+  HTTP 000 — no such host). Third-party directories confirm the absence: Open
+  Banking Tracker returns "No developer resources / No API products / No SDKs /
+  No Postman collections" for Comerica Bank. Access to Comerica account data is
+  aggregator-only, and commercial cash-management integration is contract-based
+  file/portal delivery, not a documented REST API.
+developer_portal: ''
+downloadable_specs: none
+specs_harvested: 0
+spec_provenance: >-
+  No OpenAPI, Swagger, RAML, or Postman artifact is publicly downloadable from
+  Comerica. openapi/ was intentionally left empty — nothing was fabricated.
+auth_model: >-
+  No public first-party auth surface. Consumer data-sharing authorization is
+  brokered by aggregators (OAuth2 token-based, consumer-permissioned) and by FDX
+  APIs under CFPB Section 1033. Commercial platforms use portal login plus
+  host-to-host secure file transfer (SFTP/PGP) and dual-control entitlements
+  rather than a published API-key/OAuth developer flow.
+open_finance_posture:
+  first_party_api: false
+  fdx_participation: >-
+    Reached via the FDX ecosystem; FDX is the CFPB-recognized standard-setting
+    body for the Section 1033 Personal Financial Data Rights rule. No
+    Comerica-published FDX endpoint is documented directly.
+  cfpb_1033: >-
+    Subject to Section 1033 data-access obligations as a covered depository
+    institution; compliance is expected to be delivered through aggregator/FDX
+    rails rather than a self-hosted developer portal.
+  aggregators:
+    - Plaid
+    - MX
+    - Finicity
+    - Akoya
+commercial_surface: >-
+  Treasury / Cash Management and Commercial Information Management platforms
+  provide balance/transaction reporting, ACH and wire initiation, and positive
+  pay under direct customer agreement. Delivery is via secure portal and
+  host-to-host files (BAI2 / ISO 20022), not a public API — no documentation is
+  publicly available.
+corporate_note: >-
+  Fifth Third Bancorp completed its ~$10.9B all-stock acquisition of Comerica in
+  February 2026 (announced 2025-10-06). Comerica is being integrated into Fifth
+  Third; any future public API surface will likely converge on Fifth Third's
+  platform. Comerica's homepage already links to 53.com corporate pages.
+verified_links:
+  - https://www.comerica.com
+  - https://www.comerica.com/personal-finance.html
+  - https://www.comerica.com/small-business.html
+  - https://www.comerica.com/business.html
+  - https://www.comerica.com/wealth-management.html
+  - https://www.comerica.com/business/solutions/cash-management.html
+  - https://www.comerica.com/privacy-notice
+  - https://www.comerica.com/legal
+  - https://www.comerica.com/security-commitment
+recommendation: >-
+  Represent Comerica honestly as an aggregator/FDX-only institution with no
+  first-party developer program. Re-check under the Fifth Third brand as
+  merger integration progresses; do not add fabricated API entries.

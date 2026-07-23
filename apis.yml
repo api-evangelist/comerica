@@ -8,52 +8,96 @@ tags:
   - Financial Services
   - Retail Banking
   - Wealth Management
+  - Treasury Management
+  - Open Banking
+  - Super-Regional Bank
+  - United States
   - Fortune 1000
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: No public API — aggregator/FDX access only
+  confidence: high
+  source:
+    - developer-portal-probe
+    - openbankingtracker
+  generated: '2026-07-23'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comerica.png
 access: 3rd-Party
 kind: company
 created: '2026-03-23'
-modified: '2026-04-26'
+modified: '2026-07-23'
 position: Consumer
 description: >-
-  Comerica Incorporated is a Texas-headquartered financial services holding
-  company providing retail, commercial, and wealth-management banking across
-  the United States. As of April 2026, Comerica does not publish a public
-  developer API portal. Customer banking data flows for fintech integrations
-  are reached indirectly through US open-banking aggregators (Plaid, Tink,
-  TrueLayer, MX) and through emerging Financial Data Exchange (FDX) APIs
-  required under CFPB Section 1033 once the rule is no longer subject to
-  judicial stay. Internal commercial APIs (treasury management, cash
-  positioning, ACH initiation) are available to customers under direct
-  contract through Comerica Treasury Management, but are not publicly
-  documented.
+  Comerica Incorporated is a Texas-headquartered super-regional financial
+  services holding company providing retail, small-business, commercial, and
+  wealth-management banking across the United States, with market concentrations
+  in Texas, California, Michigan, Arizona, and Florida. As of July 2026 Comerica
+  publishes NO first-party developer API portal: developer.comerica.com,
+  api.comerica.com, and related developer subdomains do not resolve, and
+  directory trackers (Open Banking Tracker, API Tracker) list no documented API
+  products, OpenAPI/Swagger specs, SDKs, or Postman collections. Consumer and
+  small-business account data is reached indirectly through US open-finance
+  aggregators (Plaid, MX, Finicity, Akoya) and through Financial Data Exchange
+  (FDX) APIs — the CFPB-recognized standard-setting body for the Section 1033
+  Personal Financial Data Rights rule — rather than a Comerica-published
+  endpoint. Commercial treasury, cash-positioning, ACH/wire initiation, and
+  reporting are delivered through Comerica's Cash Management and Commercial
+  Information Management platforms under direct customer contract (host-to-host
+  files, portal, and BAI/ISO 20022 feeds), not a public REST API. Note: Fifth
+  Third Bancorp completed its all-stock acquisition of Comerica in February
+  2026, so Comerica's future digital and API surface is being integrated into
+  Fifth Third's platform.
 apis: []
 common:
-  - type: DomainSecurity
-    url: security/comerica-domain-security.yml
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/comerica-bank
   - type: Website
     url: https://www.comerica.com
   - type: Personal
-    url: https://www.comerica.com/personal.html
+    url: https://www.comerica.com/personal-finance.html
   - type: SmallBusiness
     url: https://www.comerica.com/small-business.html
   - type: Commercial
-    url: https://www.comerica.com/commercial.html
+    url: https://www.comerica.com/business.html
   - type: WealthManagement
     url: https://www.comerica.com/wealth-management.html
-  - type: TreasuryManagement
-    url: https://www.comerica.com/commercial/treasury-management.html
+  - type: CashManagement
+    url: https://www.comerica.com/business/solutions/cash-management.html
+  - type: CommercialInformationManagement
+    url: >-
+      https://www.comerica.com/business/solutions/cash-management/commercial-information-management.html
+  - type: OnlineBanking
+    url: https://www.comerica.com/personal-finance/services/online-and-mobile-banking.html
+  - type: Blog
+    url: https://www.comerica.com/insights.html
+  - type: Support
+    url: https://www.comerica.com/site-tools/resources/contact-us.html
+  - type: PrivacyPolicy
+    url: https://www.comerica.com/privacy-notice
+  - type: TermsOfService
+    url: https://www.comerica.com/legal
+  - type: Security
+    url: https://www.comerica.com/security-commitment
+  - type: FraudCenter
+    url: https://www.comerica.com/fraud-center.html
   - type: Investors
     url: https://investor.comerica.com/
-  - type: PrivacyCenter
-    url: https://www.comerica.com/privacy-center.html
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/comerica-bank
+  - type: DomainSecurity
+    url: security/comerica-domain-security.yml
   - type: AggregatorPlaid
     url: https://plaid.com/institutions/
+  - type: AggregatorAkoya
+    url: https://akoya.com/
   - type: FDXStandard
     url: https://financialdataexchange.org/
+  - type: Acquirer
+    url: https://www.53.com/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
