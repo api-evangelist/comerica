@@ -1,0 +1,31 @@
+# Comerica
+
+> Comerica Incorporated is a Texas-headquartered super-regional financial services holding company (retail, small-business, commercial, and wealth-management banking) with concentrations in Texas, California, Michigan, Arizona, and Florida. As of July 2026 Comerica publishes NO first-party developer API: developer.comerica.com is a dangling Pantheon edge (HTTP 404 "Unknown site"), api.comerica.com resets the connection, and directory trackers list no OpenAPI/Swagger specs, SDKs, or Postman collections. Consumer/small-business account data is reached indirectly through US open-finance aggregators (Plaid, MX, Finicity, Akoya) and Financial Data Exchange (FDX) APIs under the CFPB Section 1033 rule; commercial treasury/cash-management is delivered under direct customer contract (host-to-host files, portal, BAI/ISO 20022 feeds), not a public REST API. Fifth Third Bancorp completed its all-stock acquisition of Comerica in February 2026, so Comerica's future digital/API surface is being integrated into Fifth Third's platform.
+
+## Company
+- [Website](https://www.comerica.com): Comerica corporate and banking site.
+- [Personal banking](https://www.comerica.com/personal-finance.html): Retail accounts and services.
+- [Small business](https://www.comerica.com/small-business.html): Small-business banking.
+- [Commercial](https://www.comerica.com/business.html): Commercial banking.
+- [Wealth management](https://www.comerica.com/wealth-management.html): Wealth and advisory.
+- [Cash management](https://www.comerica.com/business/solutions/cash-management.html): Treasury and cash-positioning services (contract-based, not a public API).
+- [Commercial Information Management](https://www.comerica.com/business/solutions/cash-management/commercial-information-management.html): Reporting/feed platform for commercial clients.
+- [Online & mobile banking](https://www.comerica.com/personal-finance/services/online-and-mobile-banking.html): Consumer digital banking.
+- [Investor relations](https://investor.comerica.com/): Investor information.
+
+## Data access (no first-party API)
+- [Plaid institutions](https://plaid.com/institutions/): Aggregator path to Comerica consumer/small-business account data.
+- [Akoya](https://akoya.com/): API-based data-access network for Comerica account data.
+- [Financial Data Exchange (FDX)](https://financialdataexchange.org/): CFPB-recognized open-finance standard used for Section 1033 data sharing.
+- [Fifth Third Bancorp](https://www.53.com/): Acquirer; Comerica's digital/API surface is being integrated here.
+
+## Trust & policies
+- [Security commitment](https://www.comerica.com/security-commitment): Security posture (no published security.txt or vulnerability-disclosure program found as of 2026-07).
+- [Fraud center](https://www.comerica.com/fraud-center.html): Fraud prevention resources.
+- [Privacy notice](https://www.comerica.com/privacy-notice): Privacy policy.
+- [Legal / terms](https://www.comerica.com/legal): Terms of service.
+
+## Docs
+- [Insights blog](https://www.comerica.com/insights.html): Company insights and articles.
+- [Contact / support](https://www.comerica.com/site-tools/resources/contact-us.html): Support and contact.
+- [LinkedIn](https://www.linkedin.com/company/comerica-bank): Company LinkedIn.

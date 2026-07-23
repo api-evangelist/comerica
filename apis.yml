@@ -90,6 +90,8 @@ common:
     url: https://www.linkedin.com/company/comerica-bank
   - type: DomainSecurity
     url: security/comerica-domain-security.yml
+  - type: LLMsTxt
+    url: llms/comerica-llms.txt
   - type: AggregatorPlaid
     url: https://plaid.com/institutions/
   - type: AggregatorAkoya
