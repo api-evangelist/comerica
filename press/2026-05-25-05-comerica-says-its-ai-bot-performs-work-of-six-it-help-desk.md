@@ -1,7 +1,9 @@
 ---
 title: Comerica says its AI bot performs work of six IT help desk ...
 url: https://www.americanbanker.com/news/comerica-says-its-ai-bot-performs-work-of-six-it-helpdesk-agents
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Comerica" press release artificial intelligence'
 position: 5
 source: serpapi-google

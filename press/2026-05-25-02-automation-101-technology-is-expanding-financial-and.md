@@ -1,7 +1,9 @@
 ---
 title: 'Automation 101: Technology is Expanding Financial and ...'
 url: https://www.comerica.com/insights/business-finance/automation-101-how-technology-is-expanding-financial-and-banking-services.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Comerica" press release artificial intelligence'
 position: 2
 source: serpapi-google

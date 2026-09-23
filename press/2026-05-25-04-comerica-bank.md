@@ -1,7 +1,9 @@
 ---
 title: Comerica Bank
 url: https://www.facebook.com/comerica/posts/join-comerica-bank-for-our-next-outlook-on-america-a-virtual-event-with-bill-ada/1292023612955029/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Comerica" press release artificial intelligence'
 position: 4
 source: serpapi-google
