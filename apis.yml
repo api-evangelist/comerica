@@ -7,7 +7,7 @@ name: Comerica
 tags:
   - Banking
   - Commercial Banking
-  - Financial-Services
+  - Financial Services
   - Retail Banking
   - Wealth Management
   - Treasury Management
@@ -26,6 +26,7 @@ tags_raw:
   - Super-Regional Bank
   - United States
   - Fortune 1000
+  - Financial-Services
 type: Index
 deliveryModel:
   model: saas
