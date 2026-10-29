@@ -1,4 +1,4 @@
-# Comerica (comerica)
+# Comerica
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,56 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Comerica Incorporated is a Texas-headquartered super-regional financial services holding company providing retail, small-business, commercial, and wealth-management banking across the United States. As of July 2026, Comerica publishes no first-party developer API portal — developer.comerica.com and api.comerica.com do not resolve, and directory trackers list no documented API products, specs, or SDKs. Consumer account data is reached indirectly through US open-finance aggregators (Plaid, MX, Finicity, Akoya) and through Financial Data Exchange (FDX) APIs under CFPB Section 1033. Commercial treasury, cash-positioning, and ACH/wire initiation are delivered through Comerica's Cash Management and Commercial Information Management platforms under direct contract (portal + host-to-host files), not a public API. Note: Fifth Third Bancorp completed its acquisition of Comerica in February 2026, and Comerica's future digital/API surface is being integrated into Fifth Third's platform.
+Comerica Incorporated is a Texas-headquartered super-regional financial services holding company providing retail, small-business, commercial, and wealth-management banking across the United States, with market concentrations in Texas, California, Michigan, Arizona, and Florida. As of July 2026 Comerica publishes NO first-party developer API portal: developer.comerica.com, api.comerica.com, and related developer subdomains do not resolve, and directory trackers (Open Banking Tracker, API Tracker) list no documented API products, OpenAPI/Swagger specs, SDKs, or Postman collections. Consumer and small-business account data is reached indirectly through US open-finance aggregators (Plaid, MX, Finicity, Akoya) and through Financial Data Exchange (FDX) APIs — the CFPB-recognized standard-setting body for the Section 1033 Personal Financial Data Rights rule — rather than a Comerica-published endpoint. Commercial treasury, cash-positioning, ACH/wire initiation, and reporting are delivered through Comerica's Cash Management and Commercial Information Management platforms under direct customer contract (host-to-host files, portal, and BAI/ISO 20022 feeds), not a public REST API. Note: Fifth Third Bancorp completed its all-stock acquisition of Comerica in February 2026, so Comerica's future digital and API surface is being integrated into Fifth Third's platform.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/comerica/refs/heads/main/apis.yml)
+**Areas:** Banking · Commercial Banking · Financial Services · Consumer Banking · Wealth Management · Treasury Management · Open Banking · Super-Regional Bank · United States · Fortune 1000
 
-## Scope
+## Comerica on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Comerica is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/comerica/](https://apis.io/providers/comerica/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Banking
-- Commercial Banking
-- Financial Services
-- Retail Banking
-- Wealth Management
-- Treasury Management
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-07-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Comerica Domain Security](https://apis.io/security/comerica/comerica-domain-security/)
 
-No public first-party developer API has been documented for Comerica (verified 2026-07-23: developer/API subdomains do not resolve; no specs, SDKs, or Postman collections in public directories). Consumer account data is reached through open-finance aggregators (Plaid, MX, Finicity, Akoya) and FDX APIs under CFPB Section 1033; commercial treasury is delivered via Cash Management / Commercial Information Management under direct contract. See `review.yml` for the full honest assessment.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.comerica.com)
-- [Personal Banking](https://www.comerica.com/personal-finance.html)
-- [Small Business](https://www.comerica.com/small-business.html)
-- [Commercial / Business](https://www.comerica.com/business.html)
-- [Wealth Management](https://www.comerica.com/wealth-management.html)
-- [Cash Management](https://www.comerica.com/business/solutions/cash-management.html)
-- [Commercial Information Management](https://www.comerica.com/business/solutions/cash-management/commercial-information-management.html)
-- [Insights (Blog)](https://www.comerica.com/insights.html)
-- [Contact / Support](https://www.comerica.com/site-tools/resources/contact-us.html)
-- [Privacy Notice](https://www.comerica.com/privacy-notice)
-- [Legal / Terms](https://www.comerica.com/legal)
-- [Security Commitment](https://www.comerica.com/security-commitment)
-- [Investors](https://investor.comerica.com/)
-- [Plaid Institutions](https://plaid.com/institutions/)
-- [Akoya](https://akoya.com/)
-- [FDX Standard](https://financialdataexchange.org/)
-- [Acquirer: Fifth Third Bank](https://www.53.com/)
+- [Support](https://www.comerica.com/site-tools/resources/contact-us.html)
+- [Blog](https://www.comerica.com/insights.html)
+- [Security](https://www.comerica.com/security-commitment)
+- [Terms of service](https://www.comerica.com/legal)
+- [Privacy policy](https://www.comerica.com/privacy-notice)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 7.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 3.6 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.9** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/comerica/](https://apis.io/providers/comerica/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Comerica: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/comerica/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
